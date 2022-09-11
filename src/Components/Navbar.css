@@ -1,0 +1,27 @@
+.navbar {
+  background-color: rgb(20, 4, 60);
+  color: white;
+  height: 100vh;
+  flex: 0.04;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.brandIcon {
+  font-size: 25px;
+  font-weight: bolder;
+  color: green;
+  cursor: pointer;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.icon {
+  margin: 20px 0;
+  cursor: pointer;
+}

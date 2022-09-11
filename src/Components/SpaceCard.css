@@ -1,0 +1,38 @@
+.card {
+  height: 210px;
+  width: 160px;
+  margin: 15px 10px;
+  padding: 5px;
+  border: 1px rgb(199, 194, 194) solid;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.cardImage {
+  background-color: grey;
+  height: 68%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.cardHead {
+  height: 12%;
+  margin: 4px 0 0 0;
+  padding: 0 2px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.cardQtyInput {
+  height: 13px;
+  width: 35px;
+  text-decoration: none;
+}
+
+.cardDesc {
+  font-size: 11px;
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

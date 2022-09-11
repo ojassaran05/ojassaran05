@@ -1,0 +1,175 @@
+.Dashboard {
+  background-color: white;
+  flex: 0.96;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Top {
+  background-color: rgb(223, 219, 219);
+  flex: 0.08;
+  min-height: 10px;
+  text-align: left;
+}
+
+/* .topProject {
+  margin-top: 1.6%;
+  margin-left: 20px;
+  padding: 5px;
+  width: 10%;
+  background-color: white;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 15px;
+} */
+
+.Mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  flex: 0.05;
+  margin: 15px 20px;
+}
+
+.midProject {
+  cursor: pointer;
+  width: 20%;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+  text-align: left;
+}
+
+.midProjectName {
+  font-weight: bold;
+  font-size: 13px;
+  margin: 1px;
+}
+
+.midProjectAdd {
+  color: rgba(89, 167, 150, 0.802);
+}
+
+.midNewProject,
+.proceedButton {
+  cursor: pointer;
+  width: 15%;
+  padding: 8px 4px;
+  border-radius: 5px;
+  background-color: rgb(99, 230, 216);
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+}
+
+.proceedButton {
+  background-color: rgb(20, 4, 60);
+}
+
+.Main {
+  background-color: white;
+  flex: 0.8;
+  margin: 20px 20px;
+  border: solid rgb(199, 194, 194) 0.5px;
+  border-radius: 10px;
+}
+
+.mainTop {
+  background-color: rgba(146, 206, 224, 0.555);
+  height: 8%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.statsIcons {
+  padding: 12px 10px;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 820px) {
+  .iconName {
+    display: none;
+  }
+}
+
+.mainStats {
+  height: 92%;
+  display: flex;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.mainStatsLeft {
+  border-right: 1px rgb(211, 210, 210) solid;
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.configure {
+  flex: 0.4;
+  margin: 15px;
+  border: solid 0.5px rgb(211, 210, 210);
+  border-radius: 5px;
+  text-align: left;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.leftStats {
+  display: flex;
+  height: 50%;
+  align-items: center;
+  text-align: center;
+}
+
+.totalArea {
+  flex: 0.5;
+  font-size: 20px;
+  border-right: solid 0.5px grey;
+}
+
+.available {
+  flex: 0.5;
+  font-size: 20px;
+  color: green;
+}
+
+.comment {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  height: 10%;
+}
+
+.pieChart {
+  flex: 0.6;
+}
+
+.mainStatsRight {
+  max-height: 65vh;
+  min-height: 20vh;
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  overflow-y: scroll;
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 20px;
+}
